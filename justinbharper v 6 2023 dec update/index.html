@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="My name is Justin. Let me build you a beautiful website.">
+    <meta name="theme-color" content="LightGrey">
+
+    
+    <link href="favicon.png" rel="icon" sizes="16x16" type="image/png">
+	
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CLusitana" rel="stylesheet">
+
+    <!-- For page fade-in animation -->
+    <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+    
+    <link href="styles/reset.css" rel="stylesheet">
+	
+    <link href="styles/social_media_styles.css" rel="stylesheet">
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    
+    <title>Justin B. Harper</title>
+	
+    <style>
+
+   
+        html {
+            font-size: 16px;
+            overflow-y:scroll;
+        }
+
+        body {
+            background-color: LightGray;
+            font-family:  "Lusitana", sans-serif;
+            margin: auto;
+            max-width: 40rem;
+            padding: 0 1rem;
+        }
+
+        h1, h2, h3, h4, p {
+            text-align: center;
+            line-height: 1.75;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: "Raleway", serif;
+        }
+     
+        h1 {
+            font-size: 2.2rem;
+            line-height: 1;
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            margin: 0.4rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+        }
+
+        p {
+            margin: 1rem;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        #email {
+            color: #282828;
+            margin-bottom: 1.5em;
+        }
+        
+        #header-image {
+            height: 135px;
+            width: 135px;
+            background-color: black;
+            border-radius: 100%;
+            margin: 2rem auto;
+            background: url(images/portraitround.jpg) center no-repeat;
+        }
+
+        #email {
+            font-weight: bold;
+            font-family: "Raleway", sans-serif;
+        }
+        
+        footer {
+            margin-top: 1.5em;
+            margin-bottom: 1.5em;
+        }
+
+        #subheader {
+            font-weight: bold;
+            font-size: 1.1em;
+            display: block;
+            margin-top: 1em;
+            margin-bottom: -1em;
+        }
+       
+                
+        /* creates the header panels for the jquery content sliders*/
+        #firstpanel, #secondpanel, #thirdpanel, #fourthpanel {
+            display: none;
+        } /* toggle this selector on and off to make the sections intitially opened or closed */
+
+        #firstflip, #secondflip, #thirdflip, #fourthflip {
+            background: lightgrey;
+            transition: transform .5s;
+            display: inline-block;
+        }
+
+        #firstflip:hover, #secondflip:hover, #thirdflip:hover, #fourthflip:hover {
+            color: dimgray;
+            cursor: pointer;
+            -ms-transform: scale(1.3); /* IE 9 */
+            -webkit-transform: scale(1.3); /* Safari 3-8 */
+            transform: scale(1.3); 
+        }
+
+        #thirdpanel {
+            padding-top: inherit;
+            padding-bottom: inherit;
+        }
+
+        #fourthpanel {
+            padding-top: inherit;
+            padding-bottom: inherit;
+        }
+
+        #fourthpanel p {
+            text-align: center;
+        }
+
+        #thirdpanel p, #fourthpanel p {
+            font-weight: bold;
+        } 
+	</style>
+</head>
+
+<body>
+    <div class="w3-animate-opacity">
+	<header>
+		<div id="header-image"></div>
+	</header>
+    <h1>Justin Harper</h1>
+	<br>
+    <div id="firstflip">
+		<h2>Profile</h2>
+	</div>
+	
+    <p id="firstpanel">My name is Justin, let me help you create a beautiful website.<br> 
+
+    Computer science, development and design are my passions, as of which I have studied in the traditional college setting as well as through extensive self directed learning.<br> 
+        
+    My other primary interests have always revolved around the worlds of music and entertainment and has enabled me to work with a number of renowned independent record stores and music artists.<br>
+    </p><br>
+    <div id="secondflip">
+		<h2>Skills</h2>
+	</div>
+	
+    <p id="secondpanel">Through my business and work experiences with both small and large teams, I have had the opportunity to learn many development tools and methodologies.<br>
+
+    Automated and manual test scripting and execution have been primary focuses in recent years. I have worked to develop and test in an Agile environment, working directly with engineers and product managers, utilizing and creating Accessible tools and business features for large complex websites and web applications.<br>
+
+    <span id="subheader">Technical Proficiencies</span><br>
+    Front End (HTML/CSS/Javascript) &diams; Domains & Hosting<br>
+    QA/Testing &diams; Accessibility &diams; DevOps<br> 
+    Photo/Video Editing &diams; Social Media
+    </p><br>
+	
+    <div id="thirdflip">
+		<h2>Experience</h2>
+	</div>
+	
+    <div id="thirdpanel">
+		<p>Music Retail (10+ years)</p>
+		<p>Small Business Operator (2 years)</p>
+        <p>Web Development</p>
+		<ul>
+            <li><a href="https://www.emilygarneryoga.com">Emily Garner Yoga (3 years)</a></li><br>
+            <li><a href="https://web.archive.org/web/20180825114331/http://www.exiledrecords.com/">Exiled Records (5 years)</a></li>
+        </ul>
+        <p>Web & App Quality Assurance (2 years)</p>
+		<ul>
+            <li><a href="https://plusqa.com/">Plus QA (Portland, OR)</a></li><br>
+        </ul>   
+            <br>
+        <hr style="border-color: black; max-width: 45%;margin: auto;"><br>
+        
+               
+    </div><br>
+   
+    <div id="fourthflip">
+		<h2>Contact</h2>
+	</div>
+	
+    <div id="fourthpanel">
+        <p>Reach out to me:</p>
+        
+       	<a href="https://www.linkedin.com/in/justin-harper-0a0350172/">jbharperks at gmail dot com</a>
+        
+	</div><br>
+          
+    <footer>
+        <a href="https://www.linkedin.com/in/justin-harper-0a0350172/" class="icon-button linkedin">
+        <i class="fa fa-linkedin" aria-hidden="true"></i><span></span>
+        </a><br>
+        <p style="font-size: x-small;">Last Updated Jan 2020</p>
+    </footer>
+    
+    </div>
+    
+    
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    
+<script>
+$(document).ready(function(){
+   $("#firstflip").click(function(){
+       $("#firstpanel").slideToggle("slow");
+   });
+   $("#secondflip").click(function(){
+       $("#secondpanel").slideToggle("slow");
+   });
+   $("#thirdflip").click(function(){
+       $("#thirdpanel").slideToggle("slow");
+   });
+   $("#fourthflip").click(function(){
+       $("#fourthpanel").slideToggle("slow");
+   });
+});
+</script>
+    
+</body>
+</html>
